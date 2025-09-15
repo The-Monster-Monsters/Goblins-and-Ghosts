@@ -1,5 +1,8 @@
-[gd_scene load_steps=0 format=3 uid="uid://csji5dmosnl1b"]
+[gd_scene load_steps=2 format=3 uid="uid://csji5dmosnl1b"]
+
+[ext_resource type="Texture2D" uid="uid://c5jkf1cpknaim" path="res://icon.svg" id="1_xgema"]
 
 [node name="Game" type="Node2D"]
 
 [node name="Player" type="Sprite2D" parent="."]
+texture = ExtResource("1_xgema")
